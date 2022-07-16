@@ -2,6 +2,15 @@
   "name": "facade-media",
   "version": "0.1.0",
   "private": true,
+  "description": "React package to make facade image for a embed video",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jawblia/npm-test.git"
+  },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.16.4",
