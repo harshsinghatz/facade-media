@@ -1,15 +1,16 @@
 {
-  "name": "facade-media",
+  "name": "facade-media-react",
   "version": "0.1.0",
-  "private": true,
   "description": "React package to make facade image for a embed video",
   "files": [
     "dist",
     "README.md"
   ],
+  "main": "src/lib/index.jsx",
+  "module": "src/lib/index.jsx",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jawblia/npm-test.git"
+    "url": "git+https://github.com/harshsinghatz/facade-media.git"
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
@@ -24,7 +25,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist && SET NODE_ENV=development babel src/lib --out-dir dist --copy-files",
+    "build": "rm -rf dist && SET NODE_ENV=production babel src/lib --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
